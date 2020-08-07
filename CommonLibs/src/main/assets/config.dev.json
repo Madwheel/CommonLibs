@@ -1,0 +1,423 @@
+{
+  "mod.net.core": {
+    "apiHost": "https://api-dev.pydp888.com",
+    "cmsHost": "https://api-mcms-dev.pydp888.com",
+    "masterstationHost": "https://dev.pydp888.com",
+    "passportHost": "https://passport-dev.pydp888.com",
+    "bbsHost": "https://bbs-dev.pydp888.com"
+  },
+  "mod.biz.system": {
+    "innerAuthHosts": [
+      "dev.pydp888.com",
+      "home-dev.pydp888.com",
+      "youxue-dev.pydp888.com",
+      "api-dev.pydp888.com",
+      "api-mcms-dev.pydp888.com",
+      "bbs-dev.pydp888.com",
+      "admin-dev.pydp888.com",
+      "dev.xuanshang12.cn",
+      "home-dev.xuanshang12.cn",
+      "youxue-dev.xuanshang12.cn",
+      "api-dev.xuanshang12.cn",
+      "bbs-dev.xuanshang12.cn",
+      "admin-dev.xuanshang12.cn",
+      "pai-dev.xuanshang12.cn",
+      "iwangzhe.com",
+      "home.iwangzhe.com",
+      "youxue.iwangzhe.com",
+      "api.iwangzhe.com",
+      "api-mcms.iwangzhe.com",
+      "bbs.iwangzhe.com",
+      "book.iwangzhe.com",
+      "shop.iwangzhe.com",
+      "help.iwangzhe.com",
+      "www.iwangzhe.com",
+      "admin.iwangzhe.com",
+      "xuanshang95.com",
+      "home.xuanshang95.com",
+      "youxue.xuanshang95.com",
+      "api.xuanshang95.com",
+      "bbs.xuanshang95.com",
+      "admin.xuanshang95.com",
+      "pai.xuanshang95.com"
+    ],
+    "upgradeUrl":"https://dev.pydp888.com/dk"
+  },
+  "mod.biz.application": {
+    "bottomNav": [
+      {
+        "text": "首页",
+        "proport": 1.0,
+        "isSelected": true,
+        "lineSize": 1,
+        "routUrl": "",
+        "params": {
+          "pageKey": "web.dkHome"
+        },
+        "audition": 0,
+        //audition表示当前页面展示时机，0：都展示，1：审核中展示，2：审核通过展示
+        "pageType": "pageHome"
+        //pageType表示当前页面的类型，pageHome：首页，pageCommon：通用页面，webview：webview页面
+      },
+      {
+        "text": "学习",
+        "routUrl": "https://dev.pydp888.com/kline/1/study/index",
+        "proport": 1.0,
+        "lineSize": 1,
+        "isSelected": false,
+        "params": {
+          "pageKey": ""
+        },
+        "audition": 0,
+        "pageType": "webview"
+      },
+      {
+        "text": "擂台",
+        "routUrl": "https://dev.pydp888.com/kline/1/cup/hall",
+        "proport": 1.0,
+        "lineSize": 1,
+        "isSelected": false,
+        "params": {
+          "pageKey": ""
+        },
+        "audition": 0,
+        "pageType": "webview"
+      },
+      {
+        "text": "奖励",
+        "proport": 1.0,
+        "lineSize": 1,
+        "isSelected": false,
+        "routUrl": "https://dev.pydp888.com/kline/1/task/index",
+        "params": {
+          "pageKey": ""
+        },
+        "audition": 0,
+        "pageType": "webview"
+      },
+      {
+        "text": "个人中心",
+        "proport": 1.0,
+        "lineSize": 1,
+        "isSelected": false,
+        "routUrl": "https://dev.pydp888.com/kline/1/user-center/index",
+        "params": {
+          "pageKey": ""
+        },
+        "audition": 0,
+        "pageType": "webview"
+      },
+      {
+        "text": "开发者",
+        "proport": 1.0,
+        "lineSize": 1,
+        "isSelected": false,
+        "routUrl": "https://dev.pydp888.com/test/develop/",
+        "params": {
+          "pageKey": ""
+        },
+        "audition": 0,
+        "pageType": "webview"
+      }
+    ],
+    "menu": {
+      "bbsUrl": "https://bbs-dev.pydp888.com/forum.php?mod=forumdisplay&fid=7355",
+      "roomUrl": "/room?roomId=74"
+    }
+  },
+  "mod.tool.qq": {
+    "appName": "斗K",
+    "shareImageStorePath": "/stock/shareimg/",
+    "shareImageStoreName": "share.png",
+    "shareNormalImageUrl": "https://imgcdn-prd.pydp888.com/file/0/1/206240/20191008/7fbf789656fd14f99d790514b0d6148a.jpg"
+  },
+  "mod.biz.share": {
+    "type1": {
+      "items1": [
+        {
+          "responseType": "native",
+          "itemType": "wx"
+        },
+        {
+          "responseType": "native",
+          "itemType": "pyq"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "room"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "qq"
+        },
+        {
+          "responseType": "native",
+          "itemType": "qzone"
+        },
+        {
+          "responseType": "native",
+          "itemType": "wb"
+        },
+        {
+          "responseType": "native",
+          "itemType": "mail"
+        },
+        {
+          "responseType": "native",
+          "itemType": "sms"
+        }
+      ],
+      "items2": [
+        {
+          "responseType": "native",
+          "itemType": "refresh"
+        },
+        {
+          "responseType": "native",
+          "itemType": "copy"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "search"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "openBrowser"
+        }
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "fontChange"
+        //        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "feedBack"
+        //        }
+      ]
+    },
+    "type2": {
+      "items1": [
+        {
+          "responseType": "native",
+          "itemType": "wx"
+        },
+        {
+          "responseType": "native",
+          "itemType": "pyq"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "room"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "qq"
+        },
+        {
+          "responseType": "native",
+          "itemType": "qzone"
+        },
+        {
+          "responseType": "native",
+          "itemType": "wb"
+        },
+        {
+          "responseType": "native",
+          "itemType": "mail"
+        },
+        {
+          "responseType": "native",
+          "itemType": "sms"
+        }
+      ],
+      "items2": [
+        {
+          "responseType": "native",
+          "itemType": "refresh"
+        },
+        {
+          "responseType": "native",
+          "itemType": "copy"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "search"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "openBrowser"
+        }
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "fontChange"
+        //        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "feedBack"
+        //        }
+      ]
+    },
+    "type3": {
+      "items1": [
+        {
+          "responseType": "native",
+          "itemType": "wx"
+        },
+        {
+          "responseType": "native",
+          "itemType": "pyq"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "room"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "qq"
+        },
+        {
+          "responseType": "native",
+          "itemType": "qzone"
+        },
+        {
+          "responseType": "native",
+          "itemType": "wb"
+        },
+        {
+          "responseType": "native",
+          "itemType": "mail"
+        },
+        {
+          "responseType": "native",
+          "itemType": "sms"
+        }
+      ],
+      "items2": [
+        {
+          "responseType": "native",
+          "itemType": "refresh"
+        },
+        {
+          "responseType": "native",
+          "itemType": "feedBack"
+        }
+      ]
+    }
+  },
+  "biz.mod.navbar": [
+    {
+      "page": "BaseH5",
+      "background": "#3e2e15",
+      "widgets": [
+        {
+          "position": "left",
+          "type": "text",
+          "items": [
+            {
+              "event": "click",
+              "hidden": "false",
+              "icon": "navBack",
+              "text": "返回",
+              "action": "back",
+              "iconUrl": ""
+            },
+            {
+              "event": "click",
+              "icon": "",
+              "hidden": "false",
+              "text": "关闭",
+              "action": "close",
+              "iconUrl": ""
+            }
+          ]
+        },
+        {
+          "position": "center",
+          "type": "text",
+          "items": [
+            {
+              "event": "",
+              "icon": "",
+              "hidden": "false",
+              "text": "",
+              "action": "",
+              "iconUrl": ""
+            }
+          ]
+        },
+        {
+          "position": "right",
+          "type": "icon",
+          "items": [
+            {
+              "event": "click",
+              "icon": "navShare",
+              "hidden": "false",
+              "text": "",
+              "action": "share",
+              "iconUrl": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "BaseNative",
+      "background": "#3e2e15",
+      "widgets": [
+        {
+          "position": "left",
+          "type": "text",
+          "items": [
+            {
+              "event": "click",
+              "icon": "navBack",
+              "hidden": "false",
+              "text": "返回",
+              "action": "back",
+              "iconUrl": ""
+            }
+          ]
+        },
+        {
+          "position": "center",
+          "type": "text",
+          "items": [
+            {
+              "event": "",
+              "icon": "",
+              "hidden": "false",
+              "text": "",
+              "action": "",
+              "iconUrl": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "CommonH5Activity",
+      "base": "BaseH5",
+      "widgets": []
+    },
+    {
+      "page": "BBSFragment",
+      "base": "BaseNative",
+      "widgets": []
+    }
+  ],
+  "mod.biz.kline": {
+    "roomId": 74,
+    "helpId": 7355
+  },
+  "mod.biz.sharemini": {
+    "miniprogramType": 2,
+    "miniName": "gh_b8e088f047aa"
+  },
+  "mod.tool.thirdparty": {
+    "weixin": "wxeada13f242d0cccb"
+  },
+  "mod.biz.push": {
+    "miAppId": "2882303761518463307",
+    "miAppKey": "5621846326307"
+  }
+}

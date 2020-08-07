@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CommonLibs/CommonLibs-CommonLibs.iml" filepath="$PROJECT_DIR$/.idea/modules/CommonLibs/CommonLibs-CommonLibs.iml" group="CommonLibs/CommonLibs" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdk-CommonLibs.iml" filepath="$PROJECT_DIR$/.idea/modules/sdk-CommonLibs.iml" group="CommonLibs" />
+    </modules>
+  </component>
+</project>

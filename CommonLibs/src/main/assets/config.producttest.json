@@ -1,0 +1,354 @@
+{
+  "mod.net.core": {
+    "apiHost": "https://api-test.iwangzhe.com",
+    "cmsHost": "https://api-mcms-test.iwangzhe.com",
+    "masterstationHost": "https://test.iwangzhe.com",
+    "passportHost": "https://passport-test.iwangzhe.com",
+    "bbsHost": "https://bbs-test.iwangzhe.com"
+  },
+  "mod.biz.system": {
+    "innerAuthHosts": [
+      "test.iwangzhe.com",
+      "home-test.iwangzhe.com",
+      "youxue-test.iwangzhe.com",
+      "api-test.iwangzhe.com",
+      "api-mcms-test.iwangzhe.com",
+      "bbs-test.iwangzhe.com",
+      "book-test.iwangzhe.com",
+      "shop-test.iwangzhe.com",
+      "help-test.iwangzhe.com",
+      "www-test.iwangzhe.com",
+      "admin-test.iwangzhe.com"
+    ]
+  },
+  "mod.biz.application": {
+    "bottomNav": [
+      {
+        "text": "首页",
+        "routUrl": "",
+        "proport": 1.0,
+        "isSelected": true,
+        "lineSize": 1
+      },
+      {
+        "text": "学习",
+        "routUrl": "https://test.iwangzhe.com/kline/1/study/index",
+        "proport": 1.0,
+        "lineSize": 1
+      },
+      {
+        "text": "擂台",
+        "routUrl": "https://test.iwangzhe.com/kline/1/cup/hall",
+        "proport": 1.0,
+        "lineSize": 1
+      },
+      {
+        "text": "奖励",
+        "routUrl": "https://test.iwangzhe.com/kline/1/task/index",
+        "proport": 1.0,
+        "lineSize": 1
+      },
+      {
+        "text": "个人中心",
+        "routUrl": "https://test.iwangzhe.com/kline/1/user-center/index",
+        "proport": 1.0,
+        "lineSize": 1
+      }
+    ],
+    "menu": {
+      "bbsUrl": "https://bbs-test.iwangzhe.com/forum.php?mod=forumdisplay&fid=7355",
+      "roomUrl": "/room?roomId=110"
+    }
+  },
+  "mod.tool.qq": {
+    "appName": "斗K",
+    "shareImageStorePath": "/stock/shareimg/",
+    "shareImageStoreName": "share.png",
+    "shareNormalImageUrl": "https://imgcdn-prd.pydp888.com/file/0/1/206240/20191008/7fbf789656fd14f99d790514b0d6148a.jpg"
+  },
+  "mod.biz.share": {
+    "type1": {
+      "items1": [
+        {
+          "responseType": "native",
+          "itemType": "wx"
+        },
+        {
+          "responseType": "native",
+          "itemType": "pyq"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "room"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "qq"
+        },
+        {
+          "responseType": "native",
+          "itemType": "qzone"
+        },
+        {
+          "responseType": "native",
+          "itemType": "wb"
+        },
+        {
+          "responseType": "native",
+          "itemType": "mail"
+        },
+        {
+          "responseType": "native",
+          "itemType": "sms"
+        }
+      ],
+      "items2": [
+        {
+          "responseType": "native",
+          "itemType": "refresh"
+        },
+        {
+          "responseType": "native",
+          "itemType": "copyUrl"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "search"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "openBrowser"
+        }
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "fontChange"
+        //        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "feedBack"
+        //        }
+      ]
+    },
+    "type2": {
+      "items1": [
+        {
+          "responseType": "native",
+          "itemType": "wx"
+        },
+        {
+          "responseType": "native",
+          "itemType": "pyq"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "room"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "qq"
+        },
+        {
+          "responseType": "native",
+          "itemType": "qzone"
+        },
+        {
+          "responseType": "native",
+          "itemType": "wb"
+        },
+        {
+          "responseType": "native",
+          "itemType": "mail"
+        },
+        {
+          "responseType": "native",
+          "itemType": "sms"
+        }
+      ],
+      "items2": [
+        {
+          "responseType": "native",
+          "itemType": "refresh"
+        },
+        {
+          "responseType": "native",
+          "itemType": "copyUrl"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "search"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "openBrowser"
+        }
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "fontChange"
+        //        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "feedBack"
+        //        }
+      ]
+    },
+    "type3": {
+      "items1": [
+        {
+          "responseType": "native",
+          "itemType": "wx"
+        },
+        {
+          "responseType": "native",
+          "itemType": "pyq"
+        },
+        //        {
+        //          "responseType": "native",
+        //          "itemType": "room"
+        //        },
+        {
+          "responseType": "native",
+          "itemType": "qq"
+        },
+        {
+          "responseType": "native",
+          "itemType": "qzone"
+        },
+        {
+          "responseType": "native",
+          "itemType": "wb"
+        },
+        {
+          "responseType": "native",
+          "itemType": "mail"
+        },
+        {
+          "responseType": "native",
+          "itemType": "sms"
+        }
+      ],
+      "items2": [
+        {
+          "responseType": "native",
+          "itemType": "refresh"
+        },
+        {
+          "responseType": "native",
+          "itemType": "feedBack"
+        }
+      ]
+    }
+  },
+  "biz.mod.navbar": [
+    {
+      "page": "BaseH5",
+      "background": "#3e2e15",
+      "widgets": [
+        {
+          "position": "left",
+          "type": "text",
+          "items": [
+            {
+              "event": "click",
+              "hidden": "false",
+              "icon": "navBack",
+              "text": "返回",
+              "action": "back",
+              "iconUrl": ""
+            },
+            {
+              "event": "click",
+              "icon": "",
+              "hidden": "false",
+              "text": "关闭",
+              "action": "close",
+              "iconUrl": ""
+            }
+          ]
+        },
+        {
+          "position": "center",
+          "type": "text",
+          "items": [
+            {
+              "event": "",
+              "icon": "",
+              "hidden": "false",
+              "text": "",
+              "action": "",
+              "iconUrl": ""
+            }
+          ]
+        },
+        {
+          "position": "right",
+          "type": "icon",
+          "items": [
+            {
+              "event": "click",
+              "icon": "navShare",
+              "hidden": "false",
+              "text": "",
+              "action": "share",
+              "iconUrl": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "BaseNative",
+      "background": "#3e2e15",
+      "widgets": [
+        {
+          "position": "left",
+          "type": "text",
+          "items": [
+            {
+              "event": "click",
+              "icon": "navBack",
+              "hidden": "false",
+              "text": "返回",
+              "action": "back",
+              "iconUrl": ""
+            }
+          ]
+        },
+        {
+          "position": "center",
+          "type": "text",
+          "items": [
+            {
+              "event": "",
+              "icon": "",
+              "hidden": "false",
+              "text": "",
+              "action": "",
+              "iconUrl": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": "CommonH5Activity",
+      "base": "BaseH5",
+      "widgets": []
+    },
+    {
+      "page": "BBSFragment",
+      "base": "BaseNative",
+      "widgets": []
+    }
+  ],
+  "mod.biz.kline": {
+    "roomId": 110,
+    "helpId": 7344
+  },
+  "mod.biz.sharemini": {
+    "miniprogramType": 2,
+    "miniName": "gh_b8e088f047aa"
+  },
+  "mod.tool.thirdparty": {
+    "weixin": "wxeada13f242d0cccb"
+  }
+}
