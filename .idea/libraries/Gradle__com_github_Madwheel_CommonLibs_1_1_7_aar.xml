@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Madwheel:CommonLibs:1.1.7@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CommonLibs-1.1.7.aar/50d626e005d0b4a7532a7970fca41298/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CommonLibs-1.1.7.aar/50d626e005d0b4a7532a7970fca41298/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/CommonLibs-1.1.7.aar/50d626e005d0b4a7532a7970fca41298/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Madwheel/CommonLibs/1.1.7/b411afa9738bf12dd320008b4cc1709956912af1/CommonLibs-1.1.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
